@@ -303,7 +303,7 @@ h2 {
 }
 .logo {
     display: block;
-    max-width: 280px;
+    max-width: 90px;
     height: auto;
     margin: 20px auto;
 }
@@ -412,4 +412,35 @@ form button {
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    min-height: 120px;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 5px;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
 }
